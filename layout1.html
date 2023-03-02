@@ -5,43 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout 1</title>
-    <head>     
-        <style>
-        .wrapper {
+</head>
+<style>
+     .layout1 {
         display: flex;
         flex-wrap: wrap;
-        width: 300px;
-        background-color: lightblue;
-        padding: 10px;
+        flex-direction: row;
+        width: 500px;
+        height: 500px;
+        background-color: rgb(6, 163, 216);
+        }
+        .caixa1 {
+        background-color: yellow;
+        width: 500px;
+        height: 100px;
+        margin: 20px;
       }
-      
-      .box {
+      .caixa2 {
         background-color: yellow;
         width: 100px;
         height: 100px;
-        margin: 5px;
+        margin: 20px;
       }
-        </style>
-      </head>
-      
-      <body>
-        <div class="wrapper">
-        <div class="box">
-        </div>
-        
-        <div class="box">
-        </div>
-        
-        <div class="box">
-        </div>
-        
-        <div class="box">
-        </div>
-        
-        <div class="box">
-        </div>
-        
-        <div class="box">
-        </div>
+      .caixa3 {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }        
+      .caixa4 {
+        background-color: yellow;
+        width: 100px;
+        height: 300px;
+        margin: 20px;
+      }        
+      .caixa5 {
+        background-color: yellow;
+        width: 250px;
+        height: 100px;
+        margin: 20px;
+      }
+</style>
+<body>
+  <div class="layout1">
+      <div class="caixa1">1</div>
+      <div class="caixa2">2</div>
+      <div class="caixa3">3</div>
+      <div class="caixa4">4</div>
+      <div class="caixa5">5</div>
       </div>
-      </body>
+  </div>  
+</body>
+</html>
