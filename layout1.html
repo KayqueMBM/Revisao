@@ -12,12 +12,19 @@
         flex-wrap: wrap;
         flex-direction: row;
         width: 500px;
-        height: 500px;
+        height: 450px;
         background-color: rgb(6, 163, 216);
         }
-        .caixa1 {
+     .caixa_oculta {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+      }        
+      .caixa1 {
         background-color: yellow;
-        width: 500px;
+        width: 400px;
         height: 100px;
         margin: 20px;
       }
@@ -36,7 +43,7 @@
       .caixa4 {
         background-color: yellow;
         width: 100px;
-        height: 300px;
+        height: 250px;
         margin: 20px;
       }        
       .caixa5 {
@@ -49,10 +56,12 @@
 <body>
   <div class="layout1">
       <div class="caixa1">1</div>
-      <div class="caixa2">2</div>
-      <div class="caixa3">3</div>
+      <div class="caixa_oculta">
+        <div class="caixa2">2</div>
+        <div class="caixa3">3</div>
+        <div class="caixa5">5</div>  
+      </div>
       <div class="caixa4">4</div>
-      <div class="caixa5">5</div>
       </div>
   </div>  
 </body>
